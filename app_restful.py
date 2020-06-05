@@ -23,7 +23,6 @@ TAREFAS = [
 
 
 class Task(Resource):
-    response = None
 
     @staticmethod
     def get_task(id):
